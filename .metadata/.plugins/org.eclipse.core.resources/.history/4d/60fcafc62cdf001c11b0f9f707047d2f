@@ -1,0 +1,15 @@
+package paiza;
+
+public class C085 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		char c = 'a';
+		Map<char, Integer> オブジェクト名 = new HashMap<>();
+		for(int i = 0; i < 26; i++){
+		    System.out.print(c);
+		    c++;
+		}
+	}
+
+}

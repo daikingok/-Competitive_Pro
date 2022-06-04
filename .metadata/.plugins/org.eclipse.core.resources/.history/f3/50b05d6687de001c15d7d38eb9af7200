@@ -1,0 +1,30 @@
+package atCoder_B;
+
+import java.util.Scanner;
+
+public class B_Distance_between {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int H= sc.nextInt();
+		int W = sc.nextInt();
+		int[] Yjiku  = new int[2];
+		int[] Xjiku = new int[2];
+		int count =0;
+		
+		String[] strs = new String[H];
+		for(int t=0; t<H; t++) {
+			strs[t] = sc.next();
+			if(strs[t].indexOf("o") != -1) {
+				Yjiku[count] = t;
+				Xjiku[count] = strs[t].indexOf("o");
+				 count++;
+			}
+		}
+		
+		int ans = Math.abs( Yjiku[1] - Yjiku[0])  + Math.abs(Xjiku[1] - Xjiku[0]);
+		System.out.println(ans);
+	}
+
+}

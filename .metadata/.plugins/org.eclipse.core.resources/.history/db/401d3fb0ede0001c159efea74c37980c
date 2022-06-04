@@ -1,0 +1,33 @@
+package paiza;
+
+import java.util.Scanner;
+
+public class C060 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int K = sc.nextInt();
+		int P = sc.nextInt();
+		
+		String[] array = new String[N];
+		
+		//charをint変換した文字列を入れる配列
+		String[] narabi = new String[N];
+		int[] char_to_int = new int[N];
+		for(int i = 0; i< N; i++ ) {
+			array[i]  = sc.next();
+			//char型の配列に格納
+			char[] ch = array[i].toCharArray();
+			//一文字ごとの処理
+			for(int j = 0; j<ch.length; j++)
+			{
+				 char_to_int[j] = ch[j];
+				 System.out.println(char_to_int[j] );
+				 Integer num = Integer.valueOf( char_to_int[j]);
+				box[j]  = num.toString();
+				 
+				
+			}
+		}
+	}
+}

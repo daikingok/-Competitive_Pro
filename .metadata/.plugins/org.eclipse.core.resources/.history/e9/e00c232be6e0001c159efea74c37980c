@@ -1,0 +1,59 @@
+package paiza;
+
+import java.util.Scanner;
+
+public class C50 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int S = sc.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		boolean flg = false;
+		String win="";
+		int count =1;
+		while(!flg) {
+			if(count % 2 != 0 ) {
+				System.out.println("S: "+S);
+				flg = A_pro(S, a);
+				System.out.println("A_pro_flg :"+flg);
+				S+= 10;
+				win = "A";
+			}else {
+				System.out.println("S: "+S);
+				flg = B_pro(S, b);
+				System.out.println("B_pro_flg :"+flg);
+				S  += 1000;
+				 win = "B";
+			}
+			count++;
+		}
+		System.out.println(win+" "+S);
+		
+
+	}
+	//a: 商品金額　b：Aさんの予算　
+	static boolean A_pro(int a, int b) {
+		//Aさんの入札額
+		int num = a + 10;
+		//入札額がAさんの予算より多いかつ
+		if(num <= b ) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+	//a: 商品金額　b：Bさんの予算　
+	static boolean B_pro(int a, int b) {
+		int num = a + 1000;
+		//入札額がBさんの予算より多いなら
+		if(num <= b) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+
+}

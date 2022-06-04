@@ -1,0 +1,37 @@
+package paiza;
+
+import java.util.Scanner;
+
+public class C087 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int reverse =  0;
+		
+		//while(true) {
+			for(int i = N; 0 < N; N /= 10) {
+				 int num  = N % 10;
+				if(N >= 1000) {
+					reverse += num*1000;
+				}else if(N >= 100 && N < 1000){
+					reverse += num*100;
+				}else if(10 <= N && N <= 100 ) {
+					reverse += num*10;
+				}else {
+					reverse += num;
+				}
+			}
+			System.out.println(reverse);
+//			if(reverse == N) {
+//				break;
+//			}else {
+//				N += reverse;
+//			}
+		//}
+		System.out.println(reverse);
+		
+	}
+
+}

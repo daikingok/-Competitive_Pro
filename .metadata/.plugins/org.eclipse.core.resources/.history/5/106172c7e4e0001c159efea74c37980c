@@ -1,0 +1,50 @@
+package paiza;
+
+import java.util.Scanner;
+
+public class C50 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int S = sc.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		boolean flg = false;
+		String win="";
+		int count =1;
+		while(!true) {
+			if(count % 2 != 0 ) {
+				flg = A_pro(S, a);
+				S+= 10;
+				win = "A";
+			}else {
+				flg = B_pro(S, b);
+				S  += 1000;
+				 win = "B";
+			}
+			count++;
+		}
+		System.out.println(win+" "+S);
+		
+
+	}
+	static boolean A_pro(int a, int b) {
+		int num = a + 10;
+		if(num >= b) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+	static boolean B_pro(int a, int b) {
+		int num = a + 1000;
+		if(num >= b) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+
+}

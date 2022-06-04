@@ -1,0 +1,13 @@
+package paiza;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class B081 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Map<String, String> オブジェクト名 = new HashMap<>();
+	}
+
+}
