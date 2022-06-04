@@ -13,21 +13,16 @@ public class C062 {
 		List<Integer> list = new ArrayList<Integer>();
 		String[] array = new String[T]; 
 		int count =0;
-		for(int j =0; j<T; j++) {
-			array[j] = sc.next();
-		}
-		for(int i=0; i<T; i++) {
-//			System.out.println(i);
-//			System.out.println(array[i]);
+		for(int i=0; i<15; i++) {
+			array[i] = sc.next();
 			if(array[i].contains("melon")){
-				count = i;
 				list.add(i);
-				i+=10;
+				System.out.println(list.get(count));
+				count++;
 			}
 		}
-		System.out.println(list.size());
-//		if(count == 0) {
-//			System.out.println(0);
-//		}
+		if(count == 0) {
+			System.out.println(0);
+		}
 	}
 }
