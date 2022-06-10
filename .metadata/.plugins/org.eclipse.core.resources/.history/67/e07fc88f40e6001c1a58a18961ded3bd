@@ -1,0 +1,38 @@
+package abc247;
+
+import java.util.Scanner;
+
+public class Jogging {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		int C = sc.nextInt();
+		int D = sc.nextInt();
+		int E = sc.nextInt();
+		int F = sc.nextInt();
+		int X = sc.nextInt();
+		//秒数
+		int time = 0;
+		//距離
+		int Takahashi = 0;
+		int Aoki = 0;
+
+		//休憩時間
+		int rest =0; 
+		//iが秒数
+		for(int i=1; i<=X; i++) {
+			if(i <= A) {
+				
+				Takahashi += B;
+			}
+		}
+		i+= C;
+	}
+}
+}
+
+
+

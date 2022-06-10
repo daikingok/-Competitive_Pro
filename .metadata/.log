@@ -11360,3 +11360,267 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui 2 2 2022-06-04 19:13:29.243
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-04 19:20:31.109
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-04 19:28:47.263
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2022-06-04 20:57:30.385 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220428-1800
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2022-06-04 20:58:22.600
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-04 21:36:31.054
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2022-06-05 13:49:29.462 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220428-1800
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2022-06-05 13:54:30.981
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-06-06 09:42:17.340 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220428-1800
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2022-06-06 09:43:13.113
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:41:48.847
+!MESSAGE リソース '/JavaSample/src/atCoder_B/B_105.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:41:48.848
+!MESSAGE リソース '/JavaSample/src/atCoder_B/B_105.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:42:34.001
+!MESSAGE リソース '/JavaSample/src/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:42:34.001
+!MESSAGE リソース '/JavaSample/src/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:42:34.059
+!MESSAGE リソース '/JavaSample/src/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:42:34.059
+!MESSAGE リソース '/JavaSample/src/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:42:34.061
+!MESSAGE リソース '/JavaSample/src/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:42:34.061
+!MESSAGE リソース '/JavaSample/src/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:42:34.095
+!MESSAGE リソース '/JavaSample/src/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:42:34.096
+!MESSAGE リソース '/JavaSample/src/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:44:39.417
+!MESSAGE リソース '/JavaSample/paiza/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:44:39.418
+!MESSAGE リソース '/JavaSample/paiza/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:44:39.473
+!MESSAGE リソース '/JavaSample/paiza/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:44:39.473
+!MESSAGE リソース '/JavaSample/paiza/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:44:39.475
+!MESSAGE リソース '/JavaSample/paiza/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:44:39.476
+!MESSAGE リソース '/JavaSample/paiza/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:44:39.509
+!MESSAGE リソース '/JavaSample/paiza/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:44:39.510
+!MESSAGE リソース '/JavaSample/paiza/paiza/C095.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:50:08.658
+!MESSAGE リソース '/JavaSample/atCoder/atCoder_C/C062.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-06 10:50:08.658
+!MESSAGE リソース '/JavaSample/atCoder/atCoder_C/C062.java' が存在しません。
+!SESSION 2022-06-07 09:14:08.669 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220428-1800
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2022-06-07 11:21:10.395
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-08 02:34:52.357
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: パイプを閉じています。
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: パイプを閉じています。
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:425)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: パイプを閉じています。
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy12/jdk.proxy12.$Proxy34.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:423)
+	... 7 more
+Caused by: java.io.IOException: パイプを閉じています。
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+!SESSION 2022-06-08 05:54:19.474 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220428-1800
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-06-08 05:54:26.759
+!MESSAGE ワークスペースは以前のセッションで変更が保存されずに終了しました； 変更を回復するためにワークスペースをリフレッシュ中です。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-08 05:55:44.497
+!MESSAGE リソース '/JavaSample/atCoder/abc247/Jogging.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-08 05:55:44.498
+!MESSAGE リソース '/JavaSample/atCoder/abc247/Jogging.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-08 05:55:44.580
+!MESSAGE リソース '/JavaSample/atCoder/abc247/Jogging.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-08 05:55:44.581
+!MESSAGE リソース '/JavaSample/atCoder/abc247/Jogging.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-08 05:55:44.583
+!MESSAGE リソース '/JavaSample/atCoder/abc247/Jogging.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-08 05:55:44.584
+!MESSAGE リソース '/JavaSample/atCoder/abc247/Jogging.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-08 05:55:44.629
+!MESSAGE リソース '/JavaSample/atCoder/abc247/Jogging.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-08 05:55:44.629
+!MESSAGE リソース '/JavaSample/atCoder/abc247/Jogging.java' が存在しません。
+
+!ENTRY org.eclipse.ui 2 2 2022-06-08 05:55:46.264
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-08 05:58:02.100
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2022-06-09 08:03:42.664 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220428-1800
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY mergedoc.encoding 2 0 2022-06-09 08:07:05.858
+!MESSAGE リソース '/JavaSample/atCoder/abc46/GetCloser.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-09 08:07:05.872
+!MESSAGE リソース '/JavaSample/atCoder/abc46/GetCloser.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-09 08:07:05.948
+!MESSAGE リソース '/JavaSample/atCoder/abc46/GetCloser.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-09 08:07:05.948
+!MESSAGE リソース '/JavaSample/atCoder/abc46/GetCloser.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-09 08:07:05.950
+!MESSAGE リソース '/JavaSample/atCoder/abc46/GetCloser.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-09 08:07:05.950
+!MESSAGE リソース '/JavaSample/atCoder/abc46/GetCloser.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-09 08:07:05.981
+!MESSAGE リソース '/JavaSample/atCoder/abc46/GetCloser.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-09 08:07:05.982
+!MESSAGE リソース '/JavaSample/atCoder/abc46/GetCloser.java' が存在しません。
+
+!ENTRY org.eclipse.ui 2 2 2022-06-09 08:07:08.954
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-09 08:26:32.171
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)

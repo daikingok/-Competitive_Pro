@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="atCoder"/>
+	<classpathentry kind="src" path="paiza"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

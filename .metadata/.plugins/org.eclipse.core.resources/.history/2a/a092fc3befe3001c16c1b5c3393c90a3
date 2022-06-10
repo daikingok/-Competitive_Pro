@@ -1,0 +1,38 @@
+package atCoder_B;
+
+import java.util.regex.Pattern;
+
+public class Perfect_String {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+	/**
+	 * 英字チェック（大文字）
+	 * @param value 検証対象の値
+	 * @return 結果（true：英字、false：英字ではない）
+	 */
+	public static boolean isAlphabetLarge(String value) {
+	    boolean result = false;
+	    if (value != null) {
+	        Pattern pattern = Pattern.compile("^[A-Z]+$");
+	        result = pattern.matcher(value).matches();
+	    }
+	    return result;
+	}
+	/**
+	 * 英字チェック（小文字）
+	 * @param value 検証対象の値
+	 * @return 結果（true：英字、false：英字ではない）
+	 */
+	public static boolean isAlphabetLowercase(String value) {
+	    boolean result = false;
+	    if (value != null) {
+	        Pattern pattern = Pattern.compile("^[a-z]+$");
+	        result = pattern.matcher(value).matches();
+	    }
+	    return result;
+	}
+
+}

@@ -1,0 +1,17 @@
+package abc251;
+
+import java.util.Scanner;
+
+public class SixCharacters {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		String S = sc.next();
+		while(S.length() < 6) {
+			S+= S;
+		}
+		System.out.println();
+	}
+
+}

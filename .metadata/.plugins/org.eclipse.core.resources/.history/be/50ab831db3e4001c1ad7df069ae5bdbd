@@ -1,0 +1,49 @@
+package atCoder_B;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Election {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		Map<String, Integer> map = new HashMap<>();
+		ArrayList<String> a=new ArrayList<>();
+
+		String[] str = new String[0];
+
+		int N = sc.nextInt();
+		for(int i =0; i<N; i++) {
+			str[i] = sc.next();
+		}
+		//最頻値
+		String same = str[0];
+		String hinsyutu = str[0];
+		int num = 1;
+		int max_num = 1;
+		for(int i=0; i<N; i++) {
+			if(same == str[i]) {
+				num++;
+			}else {
+				if(num > max_num) {
+					hinsyutu = same;
+					max_num = num;
+				}
+				
+				same = str[i];
+				num = 1;
+			}
+		}
+		if(num> max_num) {
+			hinsyutu = same;
+			max_num = num;
+		}
+		System.out.println(hinsyutu);
+		
+
+	}
+
+}

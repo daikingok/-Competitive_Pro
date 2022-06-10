@@ -1,0 +1,23 @@
+package abc245;
+
+import java.util.Scanner;
+
+public class Mex {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int[] array  = new int[N];
+		for(int i=0; i<N; i++) {
+			array[i] = sc.nextInt();
+		}
+
+	}
+
+	private static int calcMax(int[] a) {
+	}
+}
+
+
+}
