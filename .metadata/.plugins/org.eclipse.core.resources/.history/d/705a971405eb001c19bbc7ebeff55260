@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class A {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int V = sc.nextInt();
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		int C = sc.nextInt();
+		
+		int F = V -A;
+		if(F <  0 ) {
+			System.out.println("F");
+		}else {
+			int M =   F - B;
+			
+		}
+	}
+
+}

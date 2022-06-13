@@ -1210,3 +1210,61 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.ui 2 2 2022-06-12 13:39:52.304
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-06-13 19:30:53.070 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220428-1800
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2022-06-13 19:31:26.974
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:41:07.514
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:41:07.514
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:41:07.567
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:41:07.568
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:41:07.569
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:41:07.570
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:41:07.604
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:41:07.604
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:43:37.547
+!MESSAGE リソース '/JavaSample/atCoder/ab243/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:43:37.547
+!MESSAGE リソース '/JavaSample/atCoder/ab243/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:43:37.595
+!MESSAGE リソース '/JavaSample/atCoder/ab243/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:43:37.596
+!MESSAGE リソース '/JavaSample/atCoder/ab243/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:43:37.597
+!MESSAGE リソース '/JavaSample/atCoder/ab243/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:43:37.597
+!MESSAGE リソース '/JavaSample/atCoder/ab243/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:43:37.626
+!MESSAGE リソース '/JavaSample/atCoder/ab243/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-06-13 19:43:37.626
+!MESSAGE リソース '/JavaSample/atCoder/ab243/A.java' が存在しません。
