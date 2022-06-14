@@ -1,0 +1,36 @@
+package abc242;
+
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		String S  =  sc.next();
+		Set<String> set = permutation(S, "");
+		System.out.println(set.size());
+		for(String str : set) {
+			System.out.println(str);
+		}
+	}
+	public static Set<String> permutation(String q, String ans){
+		Set<String> set = new HashSet<String>();
+		// Base Case
+		if(q.length() <= 1) {
+			set.add(ans + q);
+			System.out.println(ans + q);
+		}
+		// General Case
+		else {
+			for (int i = 0; i < q.length(); i++) {
+				permutation(q.substring(0, i) + q.substring(i + 1),
+						ans + q.charAt(i));
+			}
+		}
+		return set;
+	}
+
+}
