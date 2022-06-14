@@ -1,7 +1,0 @@
-package abc46;
-
-public class GetCloser {
-	public static void main(String[] args) {
-
-	}
-}
