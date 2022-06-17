@@ -1,0 +1,26 @@
+package abc239;
+
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		double X = sc.nextDouble();
+		double num =  X/10;
+		double[] m = new double[10000];
+		for(double d =0; d<Math.abs(d); d++) {
+			
+		}
+		
+		
+		if(num >= 0) {
+			System.out.println(num);
+		}else {
+			System.out.println(num);
+		}
+
+	}
+
+}
