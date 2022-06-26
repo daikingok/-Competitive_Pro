@@ -1,0 +1,14 @@
+package abc234;
+
+public class A {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+	private static int f_ceil(int x) {
+		int sum = x*x + 2*x + 3;
+		return sum;
+	}
+
+}
