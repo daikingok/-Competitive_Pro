@@ -10,19 +10,19 @@ public class A {
 		int S  = sc.nextInt();
 		int T = sc.nextInt();
 		int X = sc.nextInt();
-		if(S == 0) {
-			S = 24;
-		}
-		if(T ==0) {
-			T = 24;
-		}
-		if(X == 0) {
-			X = 24;
-		}
-		if(S <= X && X <= T) {
-			System.out.println("Yes");
+		
+		if(S < T) {
+			if(S <= X && X  < T ) {
+				System.out.println("Yes");
+			}else {
+				System.out.println("No");
+			}
 		}else {
-			System.out.println("No");
+			if(X >= S || X < T) {
+				System.out.println("Yes");
+			}else {
+				System.out.println("No");
+			}
 		}
 	}
 

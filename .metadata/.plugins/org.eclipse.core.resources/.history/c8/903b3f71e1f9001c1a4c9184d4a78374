@@ -1,0 +1,25 @@
+package abc229;
+
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		String a = sc.next();
+		String b = sc.next();
+		String[] as = a.split("");
+		String[] bs = a.split("");
+		Long[] a_num = new Long[a.length()];
+		Long[] b_num = new Long[b.length()];
+		
+		for(int i=0; i<as.length; i++) {
+			a_num[i] = Long.parseLong(as[i]);
+		}
+		for(int i=0; i<bs.length; i++) {
+			a_num[i] = Long.parseLong(bs[i]);
+		}
+	}
+
+}
