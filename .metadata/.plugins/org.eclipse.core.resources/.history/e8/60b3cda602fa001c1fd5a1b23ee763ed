@@ -1,0 +1,37 @@
+package abc258;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class C {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int Q = sc.nextInt();
+		String S = sc.next();
+		Map<Integer, Integer>map = new HashMap<Integer, Integer>();
+		for(int i = 0; i<Q; i++) {
+			int query = sc.nextInt();
+			int taisyou = sc.nextInt();
+			map.put(query, taisyou);
+			
+			if(query == 1) {
+				String[] str = S.split("");
+				//対象文字
+				String ss = str[taisyou-1];
+				System.out.println("ss= "+ss);
+				str[S.length()-1] = "";
+				String ans = String.join("", str);
+				ans = ss + ans;
+				System.out.println("ans= "+ans);
+				
+			}else if(query == 2) {
+				System.out.println(S.charAt(taisyou-1));
+			}
+		}
+	}
+
+}
