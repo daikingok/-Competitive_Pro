@@ -1,0 +1,16 @@
+package abc226;
+
+import java.util.Scanner;
+
+public class A {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		String s = sc.next();
+		int point = s.indexOf(".");
+		System.out.println(point);
+		int num = Integer.parseInt(s.substring(0, point -1))
+	}
+
+}
