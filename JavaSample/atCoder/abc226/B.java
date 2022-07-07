@@ -1,8 +1,8 @@
 package abc226;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class B {
 
@@ -10,15 +10,16 @@ public class B {
 		// TODO 自動生成されたメソッド・スタブ
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
-		List<Integer[]>list = new ArrayList<>();
-		for(int i=0; i<N; i++) {
+		Set<String> set = new HashSet<String>();
+		for(int i=0; i<=N; i++) {
 			//配列内の要素
-			int L = sc.nextInt();
-			Integer[] array = new Integer[L];
-			for(int j=0; j<L; j++) {
-				array[j] = sc.nextInt();
-			}
+			//行ごと取得して差分チェック
+			//最初の空白を取り除くためsizeは-1する
+			String s = sc.nextLine();
+//			System.out.println(s);
+			set.add(s);
 		}
+		System.out.println(set.size()-1);
 	}
 
 }
