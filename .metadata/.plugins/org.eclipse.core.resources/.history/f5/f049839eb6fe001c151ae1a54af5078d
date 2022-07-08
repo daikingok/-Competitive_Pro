@@ -1,4 +1,4 @@
-package abc229;
+package abc224;
 
 import java.util.Scanner;
 
@@ -7,13 +7,14 @@ public class A {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		Scanner sc = new Scanner(System.in);
-		String a = sc.next();
-		String b = sc.next();
-		String ab = a+b;
-		if(ab == ".##." || ab == "#..#") {
-			System.out.println("No");
+		String S = sc.next();
+		if(S.length() <= 2) {
+			if(S.contains("er")){
+				System.out.println("er");
+			}
 		}else {
-			System.out.println("Yes");
+			int len = S.length();
+			String ist = S.substring(len-2, len);
 		}
 	}
 
