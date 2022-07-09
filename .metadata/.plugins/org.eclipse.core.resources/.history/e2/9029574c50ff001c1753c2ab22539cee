@@ -1,0 +1,32 @@
+package abc223;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		String S = sc.next();
+		List<String>list = shift(S);
+		
+	}
+	private static List<String> shift(String str) {
+		List<String>shiftlist = new ArrayList<>();
+		
+		char[] c = str.toCharArray();
+		//対象文字
+		char moji = c[0];
+		for(int i=0; i<c.length; i++) {
+			c[0] = c[c.length-1];
+			c[c.length-1] = moji;
+			String ans = c.toString();
+			System.out.println(ans);
+		}
+		
+		return shiftlist;
+	}
+
+}

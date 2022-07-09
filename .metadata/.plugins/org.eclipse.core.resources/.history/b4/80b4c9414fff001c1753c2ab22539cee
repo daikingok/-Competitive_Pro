@@ -1,0 +1,22 @@
+package abc223;
+
+import java.util.List;
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		String S = sc.next();
+		for(int i=0; i<S.length(); i++) {
+			 = shift(S);
+		}
+	}
+	private static List<String> shift(String str) {
+		
+		
+		return str;
+	}
+
+}
