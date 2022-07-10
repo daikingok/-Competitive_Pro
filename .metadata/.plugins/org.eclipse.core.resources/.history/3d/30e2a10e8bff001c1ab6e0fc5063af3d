@@ -1,0 +1,22 @@
+package abc259;
+
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		double a = sc.nextInt();
+		double b = sc.nextInt();
+		int d= sc.nextInt();
+		
+		double rajian = Math.toRadians(d);
+		double x = a *Math.sin(Math.PI / rajian);
+		double y = b * Math.cos(Math.PI / rajian);
+		
+		System.out.println(x);
+		System.out.println(y);
+	}
+
+}

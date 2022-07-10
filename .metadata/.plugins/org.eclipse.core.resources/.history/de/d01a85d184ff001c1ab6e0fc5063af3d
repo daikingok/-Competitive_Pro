@@ -1,0 +1,23 @@
+package abc259;
+
+import java.util.Scanner;
+
+public class A {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int M = sc.nextInt();
+		int X = sc.nextInt();
+		int T = sc.nextInt();
+		int D = sc.nextInt();
+		
+		if(X < M && M <= N) {
+			System.out.println(T);
+		}else if(M == 0){
+			
+		}else if(0 < M && M <= X)
+	}
+
+}
