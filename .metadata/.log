@@ -1890,3 +1890,37 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.ui 2 2 2022-07-10 15:10:03.402
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-07-11 17:25:48.858 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220428-1800
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 2 2022-07-11 17:26:53.567
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY mergedoc.encoding 2 0 2022-07-11 17:35:40.049
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-11 17:35:40.049
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-11 17:35:40.079
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-11 17:35:40.080
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-11 17:35:40.082
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-11 17:35:40.098
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-11 17:35:40.120
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2022-07-11 17:35:40.121
+!MESSAGE リソース '/JavaSample/atCoder/A.java' が存在しません。
