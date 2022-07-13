@@ -1,7 +1,6 @@
-package abc227;
+package abc222;
 
 import java.util.Scanner;
-import java.util.Set;
 
 public class B {
 
@@ -9,12 +8,16 @@ public class B {
 		// TODO 自動生成されたメソッド・スタブ
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
-		Set<Integer> set = new HashSet<Integer>();
-		for(int i = 1; i<=1000; i++) {
-			for(int j=1; j<=1000;j++) {
-				
+		int P = sc.nextInt();
+		int[] a = new int[N];
+		int count = 0;
+		for(int i=0; i<N; i++) {
+			a[i] = sc.nextInt();
+			if(a[i] < P) {
+				count++;
 			}
 		}
+		System.out.println(count);
 	}
 
 }

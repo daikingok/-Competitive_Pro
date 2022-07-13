@@ -1,6 +1,6 @@
-package abc227;
+package abc222;
 
-public class A {
+public class B {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
