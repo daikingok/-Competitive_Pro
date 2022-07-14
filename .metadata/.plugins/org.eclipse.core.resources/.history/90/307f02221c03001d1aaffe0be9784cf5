@@ -1,0 +1,34 @@
+package abc221;
+
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		String S = sc.next();
+		String T = sc.next();
+		char[] c = S.toCharArray();
+		if(S.equals(T)) {
+			System.out.println("Yes");
+		}else {
+			char ch = c[0];
+			//文字の並べ替え
+			for(int i=0; i < c.length-1; i++) {
+				c[i] = c[i+1];
+				c[i+1] = ch;
+				
+			}
+		}
+
+	}
+	public static String  judge(String a, String b) {
+		if(a.equals(b)) {
+			return "Yes";
+		}else {
+			return "No";
+		}
+	}
+
+}
