@@ -1,17 +1,16 @@
-package abc225;
+package abc220;
 
-import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
 
-public class A {
+public class B {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		Scanner sc = new Scanner(System.in);
-		Set<Character> set = new HashSet<Character>();
-		String s = sc.next();
-		
+		int k = sc.nextInt();
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		String ans = Integer.toString(A*B, k)
 	}
 
 }

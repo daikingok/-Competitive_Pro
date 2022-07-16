@@ -1,0 +1,17 @@
+package abc220;
+
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int k = sc.nextInt();
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		String ans = Integer.toString(A*B, k);
+		System.out.println(ans);
+	}
+
+}

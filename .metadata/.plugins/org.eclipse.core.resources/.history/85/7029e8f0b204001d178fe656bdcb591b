@@ -1,0 +1,24 @@
+package abc220;
+
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		//K進数表記
+		String K = sc.next();
+		String A = sc.next();
+		String B = sc.next();
+		int k = Integer.parseInt(K);
+		int a = Integer.parseInt(A);
+		int b = Integer.parseInt(B);
+		
+		int a_10 = Integer.parseInt(A,K);
+		int b_10 = Integer.parseInt(B,K);
+		
+		System.out.println(ans);
+	}
+
+}
