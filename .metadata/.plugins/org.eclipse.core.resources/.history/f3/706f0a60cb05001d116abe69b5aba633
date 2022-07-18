@@ -1,0 +1,28 @@
+package abc260;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Scanner;
+
+public class A {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		String S = sc.next();
+		char[] array = S.toCharArray();
+		List<Character> set = new HashSet();
+		for (int i = 0; i < array.length; i++) {
+			set.add(array[i]);
+		}
+		int size = set.size();
+		Iterator it = set.iterator();
+		if (size > 1) {
+			System.out.println(it);
+		} else {
+			System.out.println(-1);
+		}
+	}
+
+}

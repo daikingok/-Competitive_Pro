@@ -1,0 +1,32 @@
+package abc220;
+
+import java.util.Scanner;
+
+public class C {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int[] array = new int[N];
+		for(int i=0; i<N; i++) {
+			array[i] = sc.nextInt();
+		}
+		Long X = sc.nextLong();
+		
+		Long ans = 0;
+		Long index = 0;
+		Long count = 0;
+		while(ans <= X) {
+			if(index == N) {
+				index = 0;
+			}
+			ans += array[index];
+			index++;
+			count++;
+			
+		}
+		System.out.println(count);
+	}
+
+}

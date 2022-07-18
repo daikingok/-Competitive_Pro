@@ -1,0 +1,20 @@
+package abc260;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.Set;
+
+public class A {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		String S = sc.next();
+		char[] array = S.toCharArray();
+		char fir = array[0];
+		char sec = array[1];
+		char thir = array[2];
+	}
+
+}
