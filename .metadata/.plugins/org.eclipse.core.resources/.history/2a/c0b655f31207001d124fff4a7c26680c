@@ -1,0 +1,25 @@
+package abc218;
+
+import java.util.Scanner;
+
+public class A {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		String S = sc.next();
+		if(N == 7) {
+			N = 0;
+		}
+		System.out.println(S.charAt(N)+1);
+		if(S.charAt(N) == 'o') {
+			System.out.println("Yes");
+		}else {
+			System.out.println("No");
+		}
+		
+
+	}
+
+}
