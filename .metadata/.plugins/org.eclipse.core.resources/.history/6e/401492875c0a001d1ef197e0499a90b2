@@ -1,0 +1,21 @@
+package abc216;
+
+import java.math.BigDecimal;
+import java.util.Scanner;
+
+public class A {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+//		String str = sc.next();
+//		System.out.println(str);
+//		String[] arr = str.split(".");
+//		int num =Integer.parseInt(arr[0]);
+//		int dou =Integer.parseInt(arr[1]);
+//		System.out.println(num);
+//		System.out.println(dou);
+		double doubleNumber = sc.nextDouble();
+		BigDecimal bigDecimal = new BigDecimal(String.valueOf(doubleNumber));
+		int intValue = bigDecimal.intValue();
+	}
+
+}

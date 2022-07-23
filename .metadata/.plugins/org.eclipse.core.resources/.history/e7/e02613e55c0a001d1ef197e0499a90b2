@@ -1,0 +1,20 @@
+package abc216;
+
+import java.util.Scanner;
+
+public class A {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+//		System.out.println(str);
+//		String[] arr = str.split(".");
+//		int num =Integer.parseInt(arr[0]);
+//		int dou =Integer.parseInt(arr[1]);
+//		System.out.println(num);
+//		System.out.println(dou);
+		int ind = str.indexOf(".");
+		System.out.println(ind);
+		int num = Integer.parseInt(str.substring(0, ind-1));
+		int dou  = Integer.parseInt(str.substring(ind+1));
+	}
+}
