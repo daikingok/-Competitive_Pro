@@ -1,0 +1,21 @@
+package abc215;
+
+import java.util.Scanner;
+
+public class B {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		long N = sc.nextLong();
+		long ans = 1;
+		long ind = 1;
+		while(ans < N) {
+			ans =(long) Math.pow(2, ind);
+			ind++;
+			System.out.println("ind"+ind);
+			System.out.println("ans"+ans);
+		}
+	}
+
+}
