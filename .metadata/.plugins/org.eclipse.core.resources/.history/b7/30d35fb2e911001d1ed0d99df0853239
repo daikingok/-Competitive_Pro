@@ -1,0 +1,16 @@
+package abc261;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class C {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Scanner sc = new Scanner(System.in);
+		HashMap<String, Integer> map = new HashMap<>();
+		String tmpString;
+		Integer tmpInteger;
+	}
+
+}
